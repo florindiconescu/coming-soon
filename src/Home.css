@@ -1,0 +1,63 @@
+.Home {
+  margin: 120px 130px;
+  height: 70vh;
+  width: 75vw;
+  border: 8px solid black;
+  transform: rotate(10deg);
+  display: flex;
+}
+
+.HomeFrame {
+  flex-grow: 3;
+  margin: 40px;
+  border: 4px solid white;
+  color: white;
+  position: relative;
+}
+
+.HomeFrame h2 {
+  padding-top: 80px;
+  padding-left: 40px;
+  font-size: 40px;
+}
+
+.HomeFrame h2:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url('on_the_way.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 60px;
+  transform: scaleX(-1);
+  z-index: -1;
+}
+
+.HomeRightPanel {
+  /*flex-grow: 1;*/
+  background-color: #42b0f5;
+}
+
+.HomeRightPanelContent {
+  margin-top: 325px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.HomeRightPanelContent p, i {
+  color: white;
+}
+
+.Links {
+  margin-top: 40px;
+  /*display: flex;*/
+}
+
+.Links i {
+  padding-right: 10px;
+  font-size: 20px;
+}
